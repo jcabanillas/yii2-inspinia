@@ -1,13 +1,13 @@
 {
-    "name": "maxyc/yii2-inspinia-asset",
-    "description": "Inspinia 2.4 asset widgets",
+    "name": "jcabanillas/yii2-inspinia",
+    "description": "Inspinia 2.4 widgets",
     "type": "yii2-extension",
-    "keywords": ["yii2"," inspinia"," assets"," widgets"],
+    "keywords": ["yii2", " inspinia", " assets", " widgets"],
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Maxyc Webber",
-            "email": "maxycws@gmail.com"
+            "name": "Javier Cabanillas",
+            "email": "jcabanillas@bitevolution.net"
         }
     ],
     "require": {
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "maxyc\\inspinia\\": ""
+            "jcabanillas\\inspinia\\": ""
         }
     }
 }
