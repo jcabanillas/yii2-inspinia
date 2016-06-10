@@ -25,7 +25,8 @@ class AppAsset extends AssetBundle {
         'js/plugins/metisMenu/jquery.metisMenu.js',
         'js/plugins/slimscroll/jquery.slimscroll.min.js',
         'js/inspinia.js',
-        'js/plugins/pace/pace.min.js'
+        'js/plugins/pace/pace.min.js',
+        'js/ajax-modal-popup.js'
     ];
     public $depends = [
         'yii\jui\JuiAsset',
