@@ -1,0 +1,775 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b2ed7cd77797aa84a8a350a14d444037",
+    "content-hash": "51cf1720c53893a45ad3c0b44c48a2f3",
+    "packages": [
+        {
+            "name": "bower-asset/chosen",
+            "version": "v1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harvesthq/bower-chosen.git",
+                "reference": "e0d29eab0d1ea12535cf1933eba4c47df099f846"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harvesthq/bower-chosen/zipball/e0d29eab0d1ea12535cf1933eba4c47df099f846",
+                "reference": "e0d29eab0d1ea12535cf1933eba4c47df099f846",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.4.4"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "chosen.jquery.js",
+                    "chosen.css"
+                ],
+                "bower-asset-ignore": []
+            },
+            "license": [
+                {
+                    "type": "MIT",
+                    "url": "https://github.com/harvesthq/chosen/blob/master/LICENSE.md"
+                }
+            ],
+            "description": "Chosen is a JavaScript plugin that makes select boxes user-friendly. It is currently available in both jQuery and Prototype flavors.",
+            "keywords": [
+                "dropdown",
+                "form",
+                "input",
+                "multiselect",
+                "select",
+                "ui"
+            ]
+        },
+        {
+            "name": "bower-asset/cropper",
+            "version": "v2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fengyuanchen/cropper.git",
+                "reference": "2cbe834845b19c79b84a4d889dc38a156911ebd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fengyuanchen/cropper/zipball/2cbe834845b19c79b84a4d889dc38a156911ebd8",
+                "reference": "2cbe834845b19c79b84a4d889dc38a156911ebd8",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.9.1"
+            },
+            "require-dev": {
+                "bower-asset/bootstrap": "~3.3.6",
+                "bower-asset/fontawesome": "~4.5.0",
+                "bower-asset/html5-boilerplate": "~5.2.0",
+                "bower-asset/jquery": "~1.12.0",
+                "bower-asset/qunit": "~1.20.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "dist/cropper.js",
+                    "dist/cropper.css"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "tests",
+                    "test",
+                    "examples",
+                    "assets",
+                    "demo",
+                    "docs",
+                    "gulpfile.js",
+                    "CONTRIBUTING.md",
+                    "FAQ.md"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A simple jQuery image cropping plugin.",
+            "keywords": [
+                "crop",
+                "cropper",
+                "cropping",
+                "css",
+                "development",
+                "front-end",
+                "html",
+                "image",
+                "javascript",
+                "jquery",
+                "move",
+                "plugin",
+                "rotate",
+                "scale",
+                "web",
+                "zoom"
+            ]
+        },
+        {
+            "name": "bower-asset/fastclick",
+            "version": "v0.6.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ftlabs/fastclick.git",
+                "reference": "57d35f73ca54e31ee37161e32f6ac11786f520d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ftlabs/fastclick/zipball/57d35f73ca54e31ee37161e32f6ac11786f520d2",
+                "reference": "57d35f73ca54e31ee37161e32f6ac11786f520d2",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "lib/fastclick.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "component.json",
+                    "package.json",
+                    "Makefile",
+                    "tests",
+                    "examples"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/fontawesome",
+            "version": "v4.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "6535013c330e801ecf0b23c437865a7fb344486d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/6535013c330e801ecf0b23c437865a7fb344486d",
+                "reference": "6535013c330e801ecf0b23c437865a7fb344486d",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "less/font-awesome.less",
+                    "scss/font-awesome.scss"
+                ],
+                "bower-asset-ignore": [
+                    "*/.*",
+                    "*.json",
+                    "src",
+                    "*.yml",
+                    "Gemfile",
+                    "Gemfile.lock",
+                    "*.md"
+                ]
+            },
+            "license": [
+                "OFL-1.1",
+                "MIT",
+                "CC-BY-3.0"
+            ],
+            "description": "Font Awesome"
+        },
+        {
+            "name": "bower-asset/ionrangeslider",
+            "version": "2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IonDen/ion.rangeSlider.git",
+                "reference": "2ac7412a489594b55a2a36aa2df9905892d6d48b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IonDen/ion.rangeSlider/zipball/2ac7412a489594b55a2a36aa2df9905892d6d48b",
+                "reference": "2ac7412a489594b55a2a36aa2df9905892d6d48b",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.8"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "js/ion.rangeSlider.js",
+                    "css/ion.rangeSlider.css",
+                    "css/ion.rangeSlider.skinFlat.css",
+                    "img/sprite-skin-flat.png"
+                ],
+                "bower-asset-ignore": [
+                    "PSD",
+                    "ion-rangeSlider.jquery.json"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Powerful range slider with skin support",
+            "keywords": [
+                "diapason",
+                "ion",
+                "jquery-plugin",
+                "range",
+                "slider"
+            ]
+        },
+        {
+            "name": "bower-asset/jquery",
+            "version": "2.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jquery/jquery-dist.git",
+                "reference": "af22a351b2ea5801ffb1695abb3bb34d5bed9198"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/af22a351b2ea5801ffb1695abb3bb34d5bed9198",
+                "reference": "af22a351b2ea5801ffb1695abb3bb34d5bed9198",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "dist/jquery.js",
+                "bower-asset-ignore": [
+                    "package.json"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "keywords": [
+                "browser",
+                "javascript",
+                "jquery",
+                "library"
+            ]
+        },
+        {
+            "name": "bower-asset/jquery.inputmask",
+            "version": "3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RobinHerbots/jquery.inputmask.git",
+                "reference": "5a72c563b502b8e05958a524cdfffafe9987be38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/5a72c563b502b8e05958a524cdfffafe9987be38",
+                "reference": "5a72c563b502b8e05958a524cdfffafe9987be38",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.7"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "./dist/inputmask/inputmask.js"
+                ],
+                "bower-asset-ignore": [
+                    "**/*",
+                    "!dist/*",
+                    "!dist/inputmask/*",
+                    "!dist/min/*",
+                    "!dist/min/inputmask/*",
+                    "!extra/bindings/*",
+                    "!extra/dependencyLibs/*",
+                    "!extra/phone-codes/*"
+                ]
+            },
+            "license": [
+                "http://opensource.org/licenses/mit-license.php"
+            ],
+            "description": "jquery.inputmask is a jquery plugin which create an input mask.",
+            "keywords": [
+                "form",
+                "input",
+                "inputmask",
+                "jquery",
+                "mask",
+                "plugins"
+            ]
+        },
+        {
+            "name": "bower-asset/knob",
+            "version": "v0.1.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hackNightly/gnob.git",
+                "reference": "9febd55e9be65ed516e0f1259fe5d3dcf038a4cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hackNightly/gnob/zipball/9febd55e9be65ed516e0f1259fe5d3dcf038a4cf",
+                "reference": "9febd55e9be65ed516e0f1259fe5d3dcf038a4cf",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "gnob.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple, mouse-wheelable, dependency-free knob",
+            "keywords": [
+                "audio",
+                "knob",
+                "range"
+            ]
+        },
+        {
+            "name": "bower-asset/momentjs",
+            "version": "2.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moment/moment.git",
+                "reference": "b135bf1a6d58ff94287f0a21455bfa6a1ddc7226"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moment/moment/zipball/b135bf1a6d58ff94287f0a21455bfa6a1ddc7226",
+                "reference": "b135bf1a6d58ff94287f0a21455bfa6a1ddc7226",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "moment.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "benchmarks",
+                    "bower_components",
+                    "meteor",
+                    "node_modules",
+                    "scripts",
+                    "tasks",
+                    "test",
+                    "component.json",
+                    "composer.json",
+                    "CONTRIBUTING.md",
+                    "ender.js",
+                    "Gruntfile.js",
+                    "Moment.js.nuspec",
+                    "package.js",
+                    "package.json"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/punycode",
+            "version": "v1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bestiejs/punycode.js.git",
+                "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bestiejs/punycode.js/zipball/38c8d3131a82567bfef18da09f7f4db68c84f8a3",
+                "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "punycode.js",
+                "bower-asset-ignore": [
+                    "coverage",
+                    "tests",
+                    ".*",
+                    "component.json",
+                    "Gruntfile.js",
+                    "node_modules",
+                    "package.json"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/switchery",
+            "version": "0.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abpetkov/switchery.git",
+                "reference": "6361b872d616337f0fd23b9a32be07f7b50512d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abpetkov/switchery/zipball/6361b872d616337f0fd23b9a32be07f7b50512d3",
+                "reference": "6361b872d616337f0fd23b9a32be07f7b50512d3",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/fastclick": "0.6.11",
+                "bower-asset/transitionize": "*"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "dist/switchery.js",
+                    "dist/switchery.css"
+                ],
+                "bower-asset-ignore": [
+                    "build",
+                    "components",
+                    "node_modules",
+                    "bower_components",
+                    "component.json",
+                    "Makefile",
+                    "README.md",
+                    ".*"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Component to create iOS 7 styled switches from default input checkboxes",
+            "keywords": [
+                "checkbox",
+                "iOS7",
+                "input",
+                "switch"
+            ]
+        },
+        {
+            "name": "bower-asset/transitionize",
+            "version": "0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abpetkov/transitionize.git",
+                "reference": "bd106f74b90520774c1a7fff5f1f24073c0bce89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abpetkov/transitionize/zipball/bd106f74b90520774c1a7fff5f1f24073c0bce89",
+                "reference": "bd106f74b90520774c1a7fff5f1f24073c0bce89",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "dist/transitionize.js",
+                "bower-asset-ignore": [
+                    "build",
+                    "components",
+                    "node_modules",
+                    "bower_components",
+                    "component.json",
+                    "index.html",
+                    "Makefile",
+                    "README.md",
+                    ".*"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Create CSS3 transitions dynamically",
+            "keywords": [
+                "css3",
+                "dynamic",
+                "transition"
+            ]
+        },
+        {
+            "name": "bower-asset/yii2-pjax",
+            "version": "v2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/jquery-pjax.git",
+                "reference": "60728da6ade5879e807a49ce59ef9a72039b8978"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/jquery-pjax/zipball/60728da6ade5879e807a49ce59ef9a72039b8978",
+                "reference": "60728da6ade5879e807a49ce59ef9a72039b8978",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.8"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "./jquery.pjax.js",
+                "bower-asset-ignore": [
+                    ".travis.yml",
+                    "Gemfile",
+                    "Gemfile.lock",
+                    "CONTRIBUTING.md",
+                    "vendor/",
+                    "script/",
+                    "test/"
+                ]
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "cebe/markdown",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cebe/markdown.git",
+                "reference": "54a2c49de31cc44e864ebf0500a35ef21d0010b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/54a2c49de31cc44e864ebf0500a35ef21d0010b2",
+                "reference": "54a2c49de31cc44e864ebf0500a35ef21d0010b2",
+                "shasum": ""
+            },
+            "require": {
+                "lib-pcre": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "cebe/indent": "*",
+                "facebook/xhprof": "*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "bin": [
+                "bin/markdown"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "cebe\\markdown\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Creator"
+                }
+            ],
+            "description": "A super fast, highly extensible markdown parser for PHP",
+            "homepage": "https://github.com/cebe/markdown#readme",
+            "keywords": [
+                "extensible",
+                "fast",
+                "gfm",
+                "markdown",
+                "markdown-extra"
+            ],
+            "time": "2015-03-06 05:28:07"
+        },
+        {
+            "name": "ezyang/htmlpurifier",
+            "version": "v4.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ezyang/htmlpurifier.git",
+                "reference": "6f389f0f25b90d0b495308efcfa073981177f0fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/6f389f0f25b90d0b495308efcfa073981177f0fd",
+                "reference": "6f389f0f25b90d0b495308efcfa073981177f0fd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HTMLPurifier": "library/"
+                },
+                "files": [
+                    "library/HTMLPurifier.composer.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Edward Z. Yang",
+                    "email": "admin@htmlpurifier.org",
+                    "homepage": "http://ezyang.com"
+                }
+            ],
+            "description": "Standards compliant HTML filter written in PHP",
+            "homepage": "http://htmlpurifier.org/",
+            "keywords": [
+                "html"
+            ],
+            "time": "2013-11-30 08:25:19"
+        },
+        {
+            "name": "yiisoft/yii2",
+            "version": "2.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-framework.git",
+                "reference": "f45651582cb853b4326730d9d187a0f7a44a45a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f45651582cb853b4326730d9d187a0f7a44a45a3",
+                "reference": "f45651582cb853b4326730d9d187a0f7a44a45a3",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": "2.2.*@stable | 2.1.*@stable | 1.11.*@stable",
+                "bower-asset/jquery.inputmask": "~3.2.2",
+                "bower-asset/punycode": "1.3.*",
+                "bower-asset/yii2-pjax": "~2.0.1",
+                "cebe/markdown": "~1.0.0 | ~1.1.0",
+                "ext-ctype": "*",
+                "ext-mbstring": "*",
+                "ezyang/htmlpurifier": "4.6.*",
+                "lib-pcre": "*",
+                "php": ">=5.4.0",
+                "yiisoft/yii2-composer": "~2.0.4"
+            },
+            "bin": [
+                "yii"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com",
+                    "homepage": "http://www.yiiframework.com/",
+                    "role": "Founder and project lead"
+                },
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Maurizio Domba",
+                    "homepage": "http://mdomba.info/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Timur Ruziev",
+                    "email": "resurtm@gmail.com",
+                    "homepage": "http://resurtm.com/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Dmitry Naumenko",
+                    "email": "d.naumenko.a@gmail.com",
+                    "role": "Core framework development"
+                }
+            ],
+            "description": "Yii PHP Framework Version 2",
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "framework",
+                "yii2"
+            ],
+            "time": "2016-02-14 14:45:55"
+        },
+        {
+            "name": "yiisoft/yii2-composer",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-composer.git",
+                "reference": "7452fd908a5023b8bb5ea1b123a174ca080de464"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/7452fd908a5023b8bb5ea1b123a174ca080de464",
+                "reference": "7452fd908a5023b8bb5ea1b123a174ca080de464",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "yii\\composer\\Plugin",
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\composer\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com"
+                }
+            ],
+            "description": "The composer plugin for Yii extension installer",
+            "keywords": [
+                "composer",
+                "extension installer",
+                "yii2"
+            ],
+            "time": "2016-02-06 00:49:24"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
