@@ -1,6 +1,6 @@
 {
     "name": "jcabanillas/yii2-inspinia",
-    "description": "Inspinia 2.4 widgets",
+    "description": "Inspinia 2.5 widgets",
     "type": "yii2-extension",
     "keywords": ["yii2", " inspinia", " assets", " widgets"],
     "license": "Apache-2.0",
