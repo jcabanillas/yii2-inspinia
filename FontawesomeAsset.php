@@ -1,10 +1,10 @@
 <?php
-namespace maxyc\inspinia;
+namespace jcabanillas\inspinia;
 
 /**
  * Class FontawesomeAsset
  *
- * @package maxyc\inspinia
+ * @package jcabanillas\inspinia
  */
 class FontawesomeAsset extends \yii\web\AssetBundle
 {

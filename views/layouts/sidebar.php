@@ -7,7 +7,7 @@
                 $menu = array_merge([['label' => \Yii::$app->name, 'options' => ['class' => 'nav-header']]], $this->context->menu);
 
         ?>
-        <?= maxyc\inspinia\widgets\Menu::widget(
+        <?= jcabanillas\inspinia\widgets\Menu::widget(
             [
                 'options' => ['class' => 'nav metismenu', 'id'=>'side-menu'],
                 'submenuTemplate' => "\n<ul class='nav nav-second-level collapse' {show}>\n{items}\n</ul>\n",

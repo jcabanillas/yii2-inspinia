@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace maxyc\inspinia;
+namespace jcabanillas\inspinia;
 
 use yii\web\AssetBundle;
 

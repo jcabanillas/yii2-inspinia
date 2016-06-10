@@ -1,12 +1,12 @@
 <?php
 
-    namespace maxyc\inspinia\widgets;
+    namespace jcabanillas\inspinia\widgets;
 
     use yii\base\InvalidConfigException;
     use yii\helpers\Html;
     use yii\helpers\Json;
     use yii\widgets\InputWidget;
-    use maxyc\inspinia\ionRangeSliderAsset;
+    use jcabanillas\inspinia\ionRangeSliderAsset;
 
     /**
      * Class IonSlider

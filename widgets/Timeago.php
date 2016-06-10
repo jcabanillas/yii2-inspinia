@@ -4,14 +4,14 @@
      * @copyright Copyright (c) 2008 Yii Software LLC
      * @license http://www.yiiframework.com/license/
      */
-    namespace maxyc\inspinia\widgets;
+    namespace jcabanillas\inspinia\widgets;
 
     use Yii;
     use yii\base\InvalidConfigException;
     use yii\helpers\Html;
     use yii\base\Widget;
     use yii\helpers\ArrayHelper;
-    use maxyc\inspinia\TimeagoAsset;
+    use jcabanillas\inspinia\TimeagoAsset;
     /**
      *
      * @author Nghia Nguyen <zinzinday@gmail.com>

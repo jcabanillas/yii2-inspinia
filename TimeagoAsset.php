@@ -4,7 +4,7 @@
      * @copyright Copyright (c) 2008 Yii Software LLC
      * @license http://www.yiiframework.com/license/
      */
-    namespace maxyc\inspinia;
+    namespace jcabanillas\inspinia;
     /**
      * @author Nghia Nguyen <yiidevelop@hotmail.com>
      * @since 2.0

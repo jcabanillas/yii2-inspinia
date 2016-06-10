@@ -3,7 +3,7 @@
     /* @var $this \yii\web\View */
     /* @var $content string */
 
-    use maxyc\inspinia\AppAsset;
+    use jcabanillas\inspinia\AppAsset;
     use yii\helpers\Html;
     use yii\bootstrap\Nav;
     use yii\bootstrap\NavBar;
@@ -11,7 +11,7 @@
     use common\widgets\Alert;
 
     AppAsset::register($this);
-    $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/maxyc/yii2-inspinia-asset/assets');
+    $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/jcabanillas/yii2-inspinia/assets');
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
