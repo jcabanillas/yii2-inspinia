@@ -4528,7 +4528,7 @@ ul.clear-list:first-child {
 }
 .timeline-item .date {
   text-align: right;
-  /*width: 110px;*/
+  width: 110px;
   position: relative;
   padding-top: 30px;
 }
