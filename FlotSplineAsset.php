@@ -15,6 +15,6 @@ class FlotSplineAsset extends \yii\web\AssetBundle
 
     public $depends = [
         'yii\web\JqueryAsset',
-        'maxyc\inspinia\FlotAsset'
+        'jcabanillas\inspinia\FlotAsset'
     ];
 }
